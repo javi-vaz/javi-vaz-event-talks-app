@@ -1,0 +1,96 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #3c4043;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffffff;
+  padding: 20px 40px;
+  border-bottom: 1px solid #dadce0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: #202124;
+  font-size: 24px;
+  margin: 0;
+}
+
+.search-container {
+  width: 300px;
+}
+
+#search-bar {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#search-bar:focus {
+  outline: none;
+  border-color: #4285f4;
+}
+
+main {
+  padding: 20px 40px;
+}
+
+.schedule-item {
+  background-color: #ffffff;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.time-slot {
+  width: 120px;
+  font-weight: 500;
+  color: #4285f4;
+  flex-shrink: 0;
+}
+
+.talk-details {
+  flex-grow: 1;
+}
+
+.talk-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 10px 0;
+}
+
+.speakers {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.category {
+  display: inline-block;
+  background-color: #e8f0fe;
+  color: #4285f4;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.description {
+  line-height: 1.6;
+}
+
+.break {
+  background-color: #e8f0fe;
+  color: #4285f4;
+  text-align: center;
+  font-weight: 500;
+}

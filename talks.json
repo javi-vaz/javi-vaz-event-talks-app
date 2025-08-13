@@ -1,0 +1,44 @@
+[
+  {
+    "title": "The Future of AI: Trends and Predictions",
+    "speakers": ["Dr. Evelyn Reed"],
+    "category": ["AI", "Machine Learning"],
+    "duration": 60,
+    "description": "A deep dive into the future of artificial intelligence, exploring emerging trends, potential breakthroughs, and the ethical considerations of a world with advanced AI."
+  },
+  {
+    "title": "Building Scalable Web Applications with Node.js",
+    "speakers": ["Johnathan Chen", "Maria Garcia"],
+    "category": ["Web Development", "Node.js", "JavaScript"],
+    "duration": 60,
+    "description": "Learn how to build robust and scalable web applications using Node.js. This talk covers best practices, performance optimization, and real-world case studies."
+  },
+  {
+    "title": "Cybersecurity in a Post-Quantum World",
+    "speakers": ["Alexei Petrov"],
+    "category": ["Cybersecurity", "Quantum Computing"],
+    "duration": 60,
+    "description": "An exploration of the new security challenges and opportunities that will arise with the advent of quantum computing. Discover the future of cryptography and secure communications."
+  },
+  {
+    "title": "The Art of UI/UX Design for Developers",
+    "speakers": ["Samantha Bee"],
+    "category": ["UI/UX", "Design", "Web Development"],
+    "duration": 60,
+    "description": "This talk bridges the gap between development and design, providing developers with practical UI/UX principles to create intuitive and beautiful user interfaces."
+  },
+  {
+    "title": "Mastering Data Visualization with D3.js",
+    "speakers": ["Ben Carter"],
+    "category": ["Data Science", "JavaScript", "D3.js"],
+    "duration": 60,
+    "description": "A hands-on guide to creating stunning and interactive data visualizations with D3.js. Learn how to turn complex data into compelling stories."
+  },
+  {
+    "title": "Cloud-Native Development with Kubernetes",
+    "speakers": ["Aisha Khan", "Kenji Tanaka"],
+    "category": ["Cloud Computing", "Kubernetes", "DevOps"],
+    "duration": 60,
+    "description": "An introduction to cloud-native principles and how to leverage Kubernetes to build, deploy, and manage applications at scale. This talk is perfect for developers and operations engineers."
+  }
+]
