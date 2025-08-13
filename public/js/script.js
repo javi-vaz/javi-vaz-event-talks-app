@@ -74,6 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
   searchBar.addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase();
     const filteredTalks = talks.filter(talk => 
+      talk.title.toLowerCase().includes(searchTerm) ||
+      talk.speakers.some(speaker => speaker.toLowerCase().includes(searchTerm)) ||
       talk.category.some(category => category.toLowerCase().includes(searchTerm))
     );
     renderSchedule(filteredTalks);
